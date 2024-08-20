@@ -5,8 +5,8 @@ public class Article {
     private String subject;
     private String content;
 
-    Article(int id, String subject, String content) {
-        this.id = id;
+    Article(int lastId, String subject, String content) {
+        this.id = lastId;
         this.subject = subject;
         this.content = content;
     }
